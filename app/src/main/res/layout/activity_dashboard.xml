@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/showEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALL EMPLOYEE"
+        />
+
+    <Button
+        android:id="@+id/registerEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER EMPLOYEE"
+        />
+
+    <Button
+        android:id="@+id/searchEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH EMPLOYEE"
+        />
+
+    <Button
+        android:id="@+id/updateEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE EMPLOYEE"
+        />
+
+
+</LinearLayout>
